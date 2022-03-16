@@ -10,9 +10,9 @@ Goals:
 			look into the div.overlay css that tracy wrote for the csc
 	FutureTODO:
 		use typing js for "i'm a cybersecurity consultant"
-			compliance, musician, lover ;);););), table tennis master, amateur chess player
+			compliance, musician, table tennis master, amateur chess player
 
 Issues:
-	jquery is fucked up? not totally sure what''s happening there
+	jquery needs attention. multiple bugs
 
 

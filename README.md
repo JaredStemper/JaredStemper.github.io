@@ -7,7 +7,7 @@ Goals:
 			compliance, musician, table tennis master, amateur chess player, Lvl14 Neutral Good rogue, 
 		light/dark mode
 			look to CSC for inspiration
-		hadd CNAME pointing to actual website
+		add CNAME pointing to actual website
 	ArchivedTODO:
 		docker compose automatically runs website on localhost for preview
 

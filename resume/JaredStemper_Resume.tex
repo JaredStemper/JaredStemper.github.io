@@ -1,0 +1,170 @@
+% !TeX root = JaredStemper_Resume.tex
+%-------------------------------------
+% Author: Jared Stemper (jaredstemper.com)
+% Original Authors : Leslie Cheng's "LaTeX Resume for Software Engineers" and Trey Hunner's "Medium Length Professional CV"
+% License : MIT
+%-------------------------------------
+
+%--------------------------------------------------------------------------
+%   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS 
+%--------------------------------------------------------------------------
+
+\documentclass{resume}
+
+\begin{document}
+
+%---------------------------------------------------- HEADER ----------------------------------------------------
+
+\headertype{\linkedin}{\github}{}{\email}{\phone}{} % Set the order of items
+
+\vspace{-10pt} % negative value to push the body up
+
+
+%-------------------------------------------------- EXPERIENCE --------------------------------------------------
+\section{Experience}
+  %   \resumeEntryStart
+  %     \resumeEntryTSDL
+  %       {}{}
+  %       {}{}
+  %     \resumeItemListStart
+  %       \resumeItem {}
+  %       \resumeItem {}
+  %       \resumeItem {}
+  %     \resumeItemListEnd
+  %   \resumeEntryEnd
+
+  % \resumeEntryStart
+  %   \resumeEntryTSDL
+  %   {Senior Penetration Tester}{July 2024 -- Present}
+  %   {Sikich LLC}{Remote}
+  %   \resumeItemListStart
+  %     \resumeItem {Performed \countourBold{red team}, \countourBold{physical penetration}, \& \countourBold{network} penetration testing as a technical lead of the close access and network exploitation teams.}
+  %     \resumeItem {Mentored and led testing across \countourBold{web application}, \countourBold{LLM/AI} models, wireless network, social-engineering, cloud penetration testing, \& configuration review assessments (AWS).}
+  %   \resumeItemListEnd
+  % \resumeEntryEnd
+
+  \resumeEntryStart
+    \resumeEntryTSDL
+    {Offensive Cybersecurity Consultant}{July 2021 -- July 2024}
+    {RSM US LLP}{Chicago, IL}
+    \resumeItemListStart
+      \resumeItem {Performed \countourBold{red team}, \countourBold{physical penetration}, \& \countourBold{network} penetration testing as a technical lead of the close access and network exploitation teams.}
+      \resumeItem {Mentored and led testing across \countourBold{web application}, \countourBold{LLM/AI} models, wireless network, social-engineering, cloud penetration testing, \& configuration review assessments (AWS).}
+      \resumeItem {Developed \countourBold{Python} and \countourBold{Tmux} automation framework to streamline \countourBold{network penetration testing} organization \& automating attacks; reducing start-up time by 85\% for testers.}
+      \resumeItem {Built modular scanner and reporting utility with \countourBold{Python} and \countourBold{Docker} to asynchronously run security tooling, including \countourBold{AWS} configuration and code review, before consolidating output into standardized findings for reporting.}
+      \resumeItem {Created a long-range \countourBold{RFID} badge cloner using microcontroller devices with live credential reading through a \countourBold{Raspberry Pi} wireless AP.}
+      \resumeItem {Provided actionable remediation recommendations to client executives by delivering breach vector reports, enabling risk reduction \& minimizing liability exposure for Fortune 10 technology companies, Fortune 500 financial institutions, \& private clients.}
+    \resumeItemListEnd
+  \resumeEntryEnd
+
+  \resumeEntryStart
+    \resumeEntryTSDL
+    {Security Software Engineering Intern}{May 2020 -- Dec 2020}
+    {Synopsys}{Bloomington, IN}
+    \resumeItemListStart
+      \resumeItem {Automated AB-testing analysis through \countourBold{Python} scripting report comparison, resulting in a 40\% reduction in manager analysis time.}
+      \resumeItem {Aggregated assessment data across Netsparker, AppScan, \& \countourBold{BurpSuite} through \countourBold{Jira} \& \countourBold{PostgreSQL}, facilitating tracking of vulnerability trends.}
+      \resumeItem {Designed \& implemented an automated Tableau storyboard for senior managers \& C-level to track trends across assessments.}
+    \resumeItemListEnd
+  \resumeEntryEnd
+
+  \resumeEntryStart
+    \resumeEntryTSDL
+    {Penetration Security Consulting Intern}{Jun 2019 -- Aug 2019}
+    {RSM US LLP}{Chicago, IL}
+    \resumeItemListStart
+      \resumeItem {Performed assisted network and web application penetration testing on client engagements.}
+      \resumeItem {Developed Visual Basic macros \& Python scripts for automating drafting/draft handling in Excel.}
+      \resumeItem {Measured client compliance within NIST CSF assessments through direct communication with key stakeholders.}
+    \resumeItemListEnd
+  \resumeEntryEnd
+
+  \resumeEntryStart
+    \resumeEntryTSDL
+    {Undergraduate Instructor: Intro. to Python Programming}{Sep 2018 -- Jun 2020}
+    {Indiana University}{Bloomington, IN}
+    \resumeItemListStart
+      \resumeItem {Developed \& maintained Python scripts to facilitate autograding of 200+ students.}
+      \resumeItem {Led and assisted instruction for student groups of 20-45 through 55 exercises \& labs regarding Python.}
+    \resumeItemListEnd
+  \resumeEntryEnd
+
+%-------------------------------------------------- EDUCATION --------------------------------------------------
+\section{Education}
+
+  \resumeEntryStart
+    \resumeEntryTSDL
+    {B.A. in Computer Science}{Aug 2017 -- May 2021}
+    {Indiana University}{Bloomington, IN}
+      {\newline{}\newline{}\scriptsize \textit{ \footnotesize{Relevant Courses: Data Structures, Machine Learning, Relational Databases, Networking, C and Unix, Discrete Mathematics, Linear Algebra}}}
+  \resumeEntryEnd
+
+%-------------------------------------------------- TECHNICAL SKILLS --------------------------------------------------
+\section{Technical Skills}
+ \resumeTechnicalEntryStart
+  \resumeEntryS{Certifications:} {PNPT, SANS GPCS, CompTIA CySA+, AWS Certified Cloud Practitioner}
+  \resumeEntryS{Security:} {Red Team, Internal/External Network, Web Application, Physical, \& Social Engineering Penetration Testing}
+  \resumeEntryS{Languages:} {C/C++, Python, SQL, JavaScript, HTML/CSS, Unix Bash}
+  \resumeEntryS{Miscellaneous:} {AWS, Docker, Containerization, Linux, Tenable Nessus, Forklift-certified, Cobalt Strike}
+  \resumeTechnicalEntryEnd
+
+%-------------------------------------------------- PROJECTS --------------------------------------------------
+\section{Projects}
+  \resumeProjectEntryStart
+    \resumeEntryTD
+      {\scylla}{2023 - Present}
+    \resumeItemListStart
+      \resumeItem {Orchestration and automation tool developed using Bash and Python to support efficient and consistent internal network penetration testing.}
+    \resumeItemListEnd
+  \resumeProjectEntryEnd 
+  
+  \resumeProjectEntryStart
+    \resumeEntryTD
+      {\charybdis}{2023 - Present}
+    \resumeItemListStart
+      \resumeItem {Asynchronously scan and ingest data for static code and cloud account configuration testing- spitting out human-readable, highly customizable reporting templates.}
+    \resumeItemListEnd
+  \resumeProjectEntryEnd
+  
+  \resumeProjectEntryStart
+    \resumeEntryTD
+      {\passmasker}{2024}
+    \resumeItemListStart
+      \resumeItem {Analyze a list of passwords using novel bucket-sort implementation to improve computation by 40\% and provide an analysis of the the passwords into a mask ingestible to hashcat.}
+    \resumeItemListEnd
+  \resumeProjectEntryEnd
+  
+  \resumeProjectEntryStart
+    \resumeEntryTD
+      {\metasploitlab}{2021}
+    \resumeItemListStart
+      \resumeItem {Developed a docker network connecting a Kali OS to a Metasploitable2 OS to facilitate pen testing practice.}
+    \resumeItemListEnd
+  \resumeProjectEntryEnd
+
+  \resumeProjectEntryStart
+    \resumeEntryTD
+      {\torresearchproject}{2019}
+    \resumeItemListStart  
+      \resumeItem {Measured comparative data sets to determine Tor browser's anti-fingerprinting capabilities and develop an algorithm to bypass controls.}
+    \resumeItemListEnd  
+  \resumeProjectEntryEnd  
+
+  
+%-------------------------------------------------- Volunteering --------------------------------------------------
+\section{Volunteering}
+
+  
+\resumeEntryStart
+    \resumeEntryTD
+      {\#HashtagLunchbag Volunteer}{2022 - 2024}
+    \resumeItemListStart
+      \resumeItem {Packed lunches to help prepare meals for Pacific Garden Mission homeless shelter.}
+    \resumeItemListEnd
+  \resumeEntryEnd
+  
+  
+  
+
+
+\end{document}

@@ -10,6 +10,11 @@ on:
       - 'assets/resume'
 
 jobs:
+  permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+
   build:
     runs-on: ubuntu-latest
 
@@ -22,4 +27,12 @@ jobs:
     - name: run docker image
       run: docker run --rm -v $(pwd)/resume:/input -v $(pwd)/resume/:/output -v $(pwd)/assets/resume:/assets ghcr.io/jaredstemper/latexresume:latest
     - name: copy current pdf out of build folder
-      run: cp /output/build/JaredStemper_Resume.pdf /output/JaredStemper_Resume.pdf
+      run: cp $(pwd)/resume/build/JaredStemper_Resume.pdf $(pwd)/resume/JaredStemper_Resume.pdf
+    - name: check git status
+      run: git status
+    - name: add staged
+      run: git add -A
+    - name: commit with current date
+      run: git commit -c "Build Resume Workflow: updated resume based on changes as of $(date +%c --utc)"
+    - name: push changes
+      run: git push

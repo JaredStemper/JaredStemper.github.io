@@ -11,7 +11,7 @@ WORKDIR /workspace
 # COPY resume/ /workspace
 
 # Create volumes for input and output
-VOLUME ["/input", "/output"]
+VOLUME ["/input", "/output", "/assets"]
 
 # Compile the LaTeX document using latexmk
 CMD ["latexmk", "-pdf", "-cd", "/input/JaredStemper_Resume.tex", "-output-directory=/output"]

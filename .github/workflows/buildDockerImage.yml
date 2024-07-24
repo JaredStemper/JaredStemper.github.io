@@ -17,7 +17,7 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file resume/Dockerfile --tag latexresume
     - name: export environment variable
-      run: export CR_PAT=${{ BUILD_GITHUB_TOKEN }}
+      run: export CR_PAT=${{ secrets.BUILD_GITHUB_TOKEN }}
     - name: pass github token into github registry
       run: echo $CR_PAT | docker login ghcr.io -u jaredstemper --password-stdin
     - name: push new image into github registry 

@@ -1,4 +1,4 @@
-name: Docker Image CI
+name: Build Current Resume
 
 on:
   push:
@@ -15,6 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
-      run: docker build . --file resume/Dockerfile --tag latexresume
+      run: docker pull ghcr.io/jaredstemper/latexresume:latest
     - name: run docker image
-      run: docker run --rm -v $(pwd)/resume:/input -v $(pwd)/resume/build:/output latexresume
+      run: docker run --rm -v $(pwd)/resume:/input -v $(pwd)/resume/build:/output latexresume:latest

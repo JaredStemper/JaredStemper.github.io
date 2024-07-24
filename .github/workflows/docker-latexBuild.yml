@@ -10,10 +10,10 @@ on:
       - 'assets/resume'
 
 jobs:
-  permissions:
-      # Give the default GITHUB_TOKEN write permission to commit and push the
-      # added or changed files to the repository.
-      contents: write
+  # permissions:
+  #     # Give the default GITHUB_TOKEN write permission to commit and push the
+  #     # added or changed files to the repository.
+  #     contents: write
 
   build:
     runs-on: ubuntu-latest

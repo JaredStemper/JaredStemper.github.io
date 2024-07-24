@@ -11,16 +11,13 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    env:
-      SUPER_SECRET: ${{ secrets.BUILD_GITHUB_TOKEN }}
-      ENV_SECRET: ${{ env.BUILD_GITHUB_TOKEN }}
     steps:
     # - uses: actions/checkout@v4
     # - name: Build the Docker image
     #   run: docker build . --file resume/Dockerfile --tag latexresume
     - name: pass github token into github registry
-      run: echo $SUPER_SECRET | docker login ghcr.io -u jaredstemper --password-stdin
-    - name: pass github token into github registry v2
-      run: echo $ENV_SECRET | docker login ghcr.io -u jaredstemper --password-stdin
-    - name: push new image into github registry 
-      run: docker push ghcr.io/jarestemperwebsite/latexresume:latest
+      run: echo ${{ secrets.BUILD_GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+    # - name: pass github token into github registry v2
+    #   run: echo $ENV_SECRET | docker login ghcr.io -u jaredstemper --password-stdin
+    # - name: push new image into github registry 
+    #   run: docker push ghcr.io/jarestemperwebsite/latexresume:latest

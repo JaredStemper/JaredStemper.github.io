@@ -18,6 +18,6 @@ jobs:
     # - name: Build the Docker image
     #   run: docker build . --file resume/Dockerfile --tag latexresume
     - name: pass github token into github registry
-      run: echo $SUPER_SECRET }}  | docker login ghcr.io -u jaredstemper --password-stdin
+      run: echo $SUPER_SECRET | docker login ghcr.io -u jaredstemper --password-stdin
     - name: push new image into github registry 
       run: docker push ghcr.io/jarestemperwebsite/latexresume:latest

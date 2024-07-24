@@ -14,7 +14,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Get directory
-      run: cd resume && ls
     - name: Build the Docker image
-      run: docker build . --file ./Dockerfile --tag my-image-name:$(date +%s)
+      run: docker build . --file resume/Dockerfile --tag my-image-name:$(date +%s)

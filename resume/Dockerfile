@@ -14,4 +14,4 @@ WORKDIR /workspace
 VOLUME ["/input", "/output", "/assets"]
 
 # Compile the LaTeX document using latexmk
-CMD ["latexmk", "-pdf", "-cd", "/input/JaredStemper_Resume.tex", "-output-directory=/output/build"]
+CMD ["latexmk", "-output-directory=/output/build", "-pdf", "-cd", "/input/JaredStemper_Resume.tex"]

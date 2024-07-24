@@ -3,8 +3,10 @@ name: Build Current Resume
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    paths:
+      - 'resume\JaredStemper_Resume.tex'
+      - 'resume\resume.cls'
+      - 'assets\resume'
 
 jobs:
 

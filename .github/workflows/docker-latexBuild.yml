@@ -4,6 +4,7 @@ on:
   push:
     branches: [ "main" ]
     paths:
+      - '.github/workflows/docker-latexBuild.yml'
       - 'resume/JaredStemper_Resume.tex'
       - 'resume/resume.cls'
       - 'assets/resume'
@@ -19,4 +20,6 @@ jobs:
     - name: Build the Docker image
       run: docker pull ghcr.io/jaredstemper/latexresume:latest
     - name: run docker image
-      run: docker run --rm -v $(pwd)/resume:/input -v $(pwd)/resume/build:/output -v $(pwd)/assets/resume:/assets ghcr.io/jaredstemper/latexresume:latest
+      run: docker run --rm -v $(pwd)/resume:/input -v $(pwd)/resume/:/output -v $(pwd)/assets/resume:/assets ghcr.io/jaredstemper/latexresume:latest
+    - name: copy current pdf out of build folder
+      run: cp /output/build/JaredStemper_Resume.pdf /output/JaredStemper_Resume.pdf

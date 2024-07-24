@@ -5,6 +5,7 @@ on:
     branches: [ "main" ]
     paths:
       - 'resume/Dockerfile'
+      - '.github/workflows/PublishResumeImage.yml'
 
 jobs:
   build:

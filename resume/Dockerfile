@@ -10,7 +10,7 @@ WORKDIR /workspace
 # # Copy LaTeX files into the container
 # COPY resume/ /workspace
 
-# Create volumes for input and output
+# Create volumes for input, output, and assets
 VOLUME ["/input", "/output", "/assets"]
 
 # Compile the LaTeX document using latexmk

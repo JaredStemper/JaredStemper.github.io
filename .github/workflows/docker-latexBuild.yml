@@ -33,6 +33,6 @@ jobs:
     - name: add staged
       run: git add -A
     - name: commit with current date
-      run: git commit -c "Build Resume Workflow: updated resume based on changes as of $(date +%c --utc)"
+      run: git commit -c "Build Resume Workflow - updated resume based on changes as of $(date +%c --utc)"
     - name: push changes
       run: git push

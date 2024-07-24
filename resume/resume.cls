@@ -87,7 +87,7 @@
 \definecolor{accent}{HTML}{263238}
 \definecolor{links}{HTML}{1565C0}
 
-% Set Dark theme color scheme
+% Set Dark theme color scheme (does not map role titles appropriately)
 % \usepackage{xcolor}
 % \pagecolor[rgb]{0,0,0} %black
 % \color[rgb]{0.5,0.5,0.5} %grey

@@ -19,4 +19,4 @@ jobs:
     - name: Build the Docker image
       run: docker pull ghcr.io/jaredstemper/latexresume:latest
     - name: run docker image
-      run: docker run --rm -v $(pwd)/resume:/input -v $(pwd)/resume/build:/output latexresume:latest
+      run: docker run --rm -v $(pwd)/resume:/input -v $(pwd)/resume/build:/output ghcr.io/jaredstemper/latexresume:latest

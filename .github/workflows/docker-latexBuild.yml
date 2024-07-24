@@ -14,6 +14,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    - name: pass github token into github registry
+      run: echo ${{ secrets.BUILD_GITHUB_TOKEN }} | docker login ghcr.io -u JaredStemper --password-stdin
     - name: Build the Docker image
       run: docker pull ghcr.io/jaredstemper/latexresume:latest
     - name: run docker image

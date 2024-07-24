@@ -1,4 +1,4 @@
-name: Build Current Resume
+name: Build Current Resume 
 
 on:
   push:

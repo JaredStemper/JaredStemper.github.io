@@ -3,8 +3,8 @@ name: Publish Resume Image
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    paths:
+      - 'resume\Dockerfile'
 
 jobs:
 

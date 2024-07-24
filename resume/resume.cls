@@ -32,7 +32,7 @@
 \def \subtitle {}
 
 % set asset directory location
-\graphicspath{{/assets/resume}}
+\graphicspath{{/assets}}
 
 % \def \linkedinicon {\altText{\faLinkedin}{LinkedIn:}}
 \def \linkedinicon {\altText{\includegraphics[scale=.0046]{linkedinLogo.png}}{LinkedIn:}}

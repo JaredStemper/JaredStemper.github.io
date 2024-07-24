@@ -18,4 +18,4 @@ jobs:
     - name: pass github token into github registry
       run: echo ${{ secrets.BUILD_GITHUB_TOKEN }} | docker login ghcr.io -u JaredStemper --password-stdin
     - name: push new image into github registry 
-      run: docker push ghcr.io/JaredStemper/latexresume:1
+      run: docker push ghcr.io/jaredstemper/latexresume:1

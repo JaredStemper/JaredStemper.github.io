@@ -17,4 +17,6 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file resume/Dockerfile --tag my-image-name:$(date +%s)
     - name: run docker image
-      run: ls
+      run: export CR_PAT=BUILD_GITHUB_TOKEN
+      run: echo $CR_PAT | docker login ghcr.io -u jaredstemper --password-stdin
+    - name: docker push ghcr.io/jarestemperwebsite/latexResume:latest

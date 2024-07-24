@@ -23,12 +23,16 @@ jobs:
       run: docker run --rm -v $(pwd)/resume:/input -v $(pwd)/resume/:/output -v $(pwd)/assets/resume:/assets ghcr.io/jaredstemper/latexresume:latest
     - name: copy current pdf out of build folder
       run: cp $(pwd)/resume/build/JaredStemper_Resume.pdf $(pwd)/resume/JaredStemper_Resume.pdf
-    - name: commit to git
+    - name: prepare git
       run: |
         git status
         git config --global user.email "31346981+JaredStemper@users.noreply.github.com"
         git config --global user.name "Jared Stemper"
         git remote set-url origin https://JaredStemper:${{ secrets.BUILD_GITHUB_TOKEN }}@github.com/github.com/JaredStemper/JaredStemper.github.io
-        git add -A
-        git commit -m "Build Resume Workflow - updated resume based on changes as of $(date +%c --utc)"
-        git push
+        git status
+    - name: add unstaged changes
+      run: git add -A
+    - name: commit changes
+      run: git commit -m "Build Resume Workflow - updated resume based on changes as of $(date +%c --utc)"
+    - name: push
+      run: git push

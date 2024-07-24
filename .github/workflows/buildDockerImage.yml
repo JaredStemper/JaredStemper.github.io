@@ -11,7 +11,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    with:
+    env:
       SUPER_SECRET: ${{ secrets.BUILD_GITHUB_TOKEN }}
       ENV_SECRET: ${{ env.BUILD_GITHUB_TOKEN }}
     steps:

@@ -2,7 +2,16 @@
 FROM texlive/texlive:latest
 
 # Install latexmk and the desired font package
-RUN tlmgr install latexmk 
-RUN tlmgr show merriweather 
+RUN tlmgr install latexmk merriweather
 
-# CMD ["/bin/sh"]
+# Set the working directory
+WORKDIR /workspace
+
+# # Copy LaTeX files into the container
+# COPY resume/ /workspace
+
+# Create volumes for input and output
+VOLUME ["/input", "/output"]
+
+# Compile the LaTeX document using latexmk
+CMD ["latexmk", "-pdf", "/input/JaredStemper_Resume.tex", "-output-directory=/output"]

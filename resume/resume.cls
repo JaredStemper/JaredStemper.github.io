@@ -25,7 +25,7 @@
 \usepackage{graphicx} % used for pulling in local images for icons
  
 %-------------------------------------------------- VARIABLES HERE --------------------------------------------------
-\newcommand{\anonymousVar}{false} % mark true or false for anonymous user text (does NOT change company details - just user definitions below)
+\newcommand{\anonymousVar}{true} % mark true or false for anonymous user text (does NOT change company details - just user definitions below)
 
 % Header variables
 \def \fullnametext {Jared Stemper}

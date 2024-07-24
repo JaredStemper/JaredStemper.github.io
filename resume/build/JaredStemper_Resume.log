@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.21)  24 JUL 2024 17:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.21)  24 JUL 2024 17:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -476,7 +476,7 @@ Here is how much of TeX's memory you used:
 -Bold.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/sorkin/merriweather/M
 erriwthr-Italic.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/sorkin/merr
 iweather/Merriwthr-Regular.pfb>
-Output written on /output/build/JaredStemper_Resume.pdf (1 page, 276177 bytes).
+Output written on /output/build/JaredStemper_Resume.pdf (1 page, 276223 bytes).
 
 PDF statistics:
  99 PDF objects out of 1000 (max. 8388607)

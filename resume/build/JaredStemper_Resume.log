@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.21)  11 OCT 2024 16:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.21)  14 OCT 2024 14:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -426,31 +426,29 @@ LaTeX Font Info:    Font shape `T1/Merriwthr-OsF/m/sc' will be
 LaTeX Font Info:    Font shape `T1/Merriwthr-OsF/b/sc' will be
 (Font)              scaled to size 14.4pt on input line 24.
 LaTeX Font Info:    Font shape `T1/Merriwthr-OsF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 50.
+(Font)              scaled to size 8.0pt on input line 40.
 LaTeX Font Info:    Trying to load font information for TS1+Merriwthr-OsF on in
-put line 51.
+put line 41.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/merriweather/TS1Merriwthr-OsF.fd
 File: TS1Merriwthr-OsF.fd 2020/08/30 (autoinst) Font definitions for TS1/Merriw
 thr-OsF.
 )
 LaTeX Font Info:    Font shape `TS1/Merriwthr-OsF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 51.
-Package pdfrender Info: New color stack `TextRenderingMode' = 1 on input line 7
+(Font)              scaled to size 8.0pt on input line 41.
+Package pdfrender Info: New color stack `TextRenderingMode' = 1 on input line 6
 3.
-Package pdfrender Info: New color stack `LineWidth' = 2 on input line 73.
+Package pdfrender Info: New color stack `LineWidth' = 2 on input line 63.
 LaTeX Font Info:    Font shape `T1/Merriwthr-OsF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 121.
+(Font)              scaled to size 7.0pt on input line 111.
 LaTeX Font Info:    Font shape `T1/Merriwthr-OsF/m/it' will be
-(Font)              scaled to size 7.0pt on input line 121.
+(Font)              scaled to size 7.0pt on input line 111.
 LaTeX Font Info:    Font shape `T1/Merriwthr-OsF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 121.
+(Font)              scaled to size 8.0pt on input line 111.
 LaTeX Font Info:    Font shape `T1/Merriwthr-OsF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 127.
+(Font)              scaled to size 9.0pt on input line 117.
 
 
-LaTeX Font Info:    Font shape `T1/Merriwthr-OsF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 177.
 [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
@@ -469,22 +467,22 @@ Package rerunfilecheck Info: File `JaredStemper_Resume.out' has not changed.
 (rerunfilecheck)             Checksum: FB4C7D8FE4D4979020E93AC1A3FA6219;493.
  ) 
 Here is how much of TeX's memory you used:
- 14277 strings out of 473584
- 251438 string characters out of 5728334
- 1989905 words of memory out of 5000000
- 36976 multiletter control sequences out of 15000+600000
- 816158 words of font info for 63 fonts, out of 8000000 for 9000
+ 14276 strings out of 473584
+ 251413 string characters out of 5728334
+ 1987905 words of memory out of 5000000
+ 36975 multiletter control sequences out of 15000+600000
+ 799630 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,17n,93p,351b,575s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,17n,93p,351b,720s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/sorkin/merriweather/Merriwthr
 -Bold.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/sorkin/merriweather/M
 erriwthr-Italic.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/sorkin/merr
 iweather/Merriwthr-Regular.pfb>
-Output written on /output/build/JaredStemper_Resume.pdf (2 pages, 277823 bytes)
+Output written on /output/build/JaredStemper_Resume.pdf (2 pages, 277612 bytes)
 .
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 100 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  8 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

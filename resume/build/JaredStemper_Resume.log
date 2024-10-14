@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.21)  14 OCT 2024 22:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.21)  14 OCT 2024 22:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -465,10 +465,10 @@ Package rerunfilecheck Info: File `JaredStemper_Resume.out' has not changed.
 (rerunfilecheck)             Checksum: FB4C7D8FE4D4979020E93AC1A3FA6219;493.
  ) 
 Here is how much of TeX's memory you used:
- 14280 strings out of 473584
- 251487 string characters out of 5728334
+ 14278 strings out of 473584
+ 251440 string characters out of 5728334
  1987905 words of memory out of 5000000
- 36980 multiletter control sequences out of 15000+600000
+ 36978 multiletter control sequences out of 15000+600000
  799630 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,17n,93p,351b,466s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -476,7 +476,7 @@ Here is how much of TeX's memory you used:
 -Bold.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/sorkin/merriweather/M
 erriwthr-Italic.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/sorkin/merr
 iweather/Merriwthr-Regular.pfb>
-Output written on /output/build/JaredStemper_Resume.pdf (1 page, 276305 bytes).
+Output written on /output/build/JaredStemper_Resume.pdf (1 page, 276310 bytes).
 
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)

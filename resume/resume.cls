@@ -26,7 +26,7 @@
  
 %-------------------------------------------------- VARIABLES HERE --------------------------------------------------
 \newcommand{\anonymousVar}{false} % mark true or false for anonymous user text (does NOT change company details - just user definitions below)
-\newcommand{\darkTheme}{true}
+\newcommand{\darkTheme}{false}
 \newcommand{\debugFrame}{false}
 
 % Header variables

@@ -26,6 +26,8 @@
  
 %-------------------------------------------------- VARIABLES HERE --------------------------------------------------
 \newcommand{\anonymousVar}{false} % mark true or false for anonymous user text (does NOT change company details - just user definitions below)
+\newcommand{\darkTheme}{true}
+\newcommand{\debugFrame}{false}
 
 % Header variables
 \def \fullnametext {Jared Stemper}
@@ -87,10 +89,21 @@
 \definecolor{accent}{HTML}{263238}
 \definecolor{links}{HTML}{1565C0}
 
-% Set Dark theme color scheme (does not map role titles accurately)
-% \usepackage{xcolor}
-% \pagecolor[rgb]{0,0,0} %black
-% \color[rgb]{0.5,0.5,0.5} %grey
+% Set Dark theme color scheme
+\ifthenelse{\equal{\darkTheme}{true}}{
+  \definecolor{primary}{HTML}{FFFFFF}
+  \definecolor{secondary}{HTML}{FFFFFF}
+  \definecolor{accent}{HTML}{FFFFFF}
+  \definecolor{links}{HTML}{FFFFFF}
+  \pagecolor[HTML]{000000}
+  \color[HTML]{FFFFFF}
+}{}
+
+% Provides debugging frame (useful to framelines edges when mucking with formatting)
+\ifthenelse{\equal{\debugFrame}{true}}{
+  \usepackage{showframe}
+  \renewcommand*\ShowFrameColor{\color{primary}}
+}{}
 
 %------------------------------------------------------------------------------------------------------------------- 
 

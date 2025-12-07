@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.21)  14 OCT 2024 22:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.21)  7 DEC 2025 02:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -436,9 +436,9 @@ thr-OsF.
 )
 LaTeX Font Info:    Font shape `TS1/Merriwthr-OsF/m/n' will be
 (Font)              scaled to size 8.0pt on input line 41.
-Package pdfrender Info: New color stack `TextRenderingMode' = 1 on input line 6
-3.
-Package pdfrender Info: New color stack `LineWidth' = 2 on input line 63.
+Package pdfrender Info: New color stack `TextRenderingMode' = 1 on input line 4
+1.
+Package pdfrender Info: New color stack `LineWidth' = 2 on input line 41.
 LaTeX Font Info:    Font shape `T1/Merriwthr-OsF/m/n' will be
 (Font)              scaled to size 7.0pt on input line 111.
 LaTeX Font Info:    Font shape `T1/Merriwthr-OsF/m/it' will be
@@ -467,16 +467,16 @@ Package rerunfilecheck Info: File `JaredStemper_Resume.out' has not changed.
 Here is how much of TeX's memory you used:
  14278 strings out of 473584
  251440 string characters out of 5728334
- 1987905 words of memory out of 5000000
+ 1988905 words of memory out of 5000000
  36978 multiletter control sequences out of 15000+600000
  799630 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,17n,93p,351b,466s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,17n,93p,365b,466s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/sorkin/merriweather/Merriwthr
 -Bold.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/sorkin/merriweather/M
 erriwthr-Italic.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/sorkin/merr
 iweather/Merriwthr-Regular.pfb>
-Output written on /output/build/JaredStemper_Resume.pdf (1 page, 276310 bytes).
+Output written on /output/build/JaredStemper_Resume.pdf (1 page, 276716 bytes).
 
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)

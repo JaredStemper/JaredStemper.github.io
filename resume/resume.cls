@@ -187,7 +187,7 @@
     \renewcommand{\torresearchprojectlink} {https://github.com/Anonymous/Research_Project}
     \renewcommand{\torresearchprojecttext} {\altText{Browser Fingerprinting Research}{https://github.com/Anonymous/Research_Project}}
     \renewcommand{\passmaskerlink} {https://github.com/Anonymous/Password_Masker}
-    \renewcommand{\passmaskertext} {\altText{Password_Masker}{https://github.com/Anonymous/Password_Masker}}
+    \renewcommand{\passmaskertext} {\altText{PasswordMasker}{https://github.com/Anonymous/Password_Masker}}
     \renewcommand{\metasploitlablink} {https://github.com/Anonymous/Metasploit-Lab}
     \renewcommand{\metasploitlabtext} {\altText{Metasploitable Lab in Docker}{https://github.com/Anonymous/Metasploit_Docker_Lab}}
   } %true case

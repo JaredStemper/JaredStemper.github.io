@@ -178,16 +178,16 @@
     \renewcommand{\githubtext} {\altText{/Anonymous}{https://github.com/Anonymous}}
     \renewcommand{\websitelink} {https://Anonymous.com/}
     \renewcommand{\websitetext} {\altText{Anonymous.com}{https://Anonymous.com/}}
-    \renewcommand{\scyllalink} {https://github.com/Anonymous/Scylla}
+    \renewcommand{\scyllalink} {https://github.com/Anonymous/PentestingAutomationTool}
     \renewcommand{\scyllatext} {\altText{PentestingAutomationTool}{https://github.com/Anonymous/PentestingAutomationTool}}
     \renewcommand{\nixRouterlink} {https://github.com/Anonymous/nixRouter}
     \renewcommand{\nixRoutertext} {\altText{NixRouter}{https://github.com/Anonymous/nixRouter}}
-    \renewcommand{\charybdislink} {https://github.com/Anonymous/Charybdis}
+    \renewcommand{\charybdislink} {https://github.com/Anonymous/OtherProject}
     \renewcommand{\charybdistext} {\altText{ProjectB}{https://github.com/Anonymous/Charybdis}}
     \renewcommand{\torresearchprojectlink} {https://github.com/Anonymous/Research_Project}
     \renewcommand{\torresearchprojecttext} {\altText{Browser Fingerprinting Research}{https://github.com/Anonymous/Research_Project}}
     \renewcommand{\passmaskerlink} {https://github.com/Anonymous/Password_Masker}
-    \renewcommand{\passmaskertext} {\altText{PassMasker}{https://github.com/Anonymous/Password_Masker}}
+    \renewcommand{\passmaskertext} {\altText{Password_Masker}{https://github.com/Anonymous/Password_Masker}}
     \renewcommand{\metasploitlablink} {https://github.com/Anonymous/Metasploit-Lab}
     \renewcommand{\metasploitlabtext} {\altText{Metasploitable Lab in Docker}{https://github.com/Anonymous/Metasploit_Docker_Lab}}
   } %true case

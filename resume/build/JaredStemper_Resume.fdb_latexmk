@@ -1,11 +1,11 @@
 # Fdb version 4
-["pdflatex"] 1768744000.63262 "JaredStemper_Resume.tex" "/output/build/JaredStemper_Resume.pdf" "JaredStemper_Resume" 1768744001.64128 0
-  "/assets/emailLogo-2.png" 1768743916.35238 30916 302beefb5a8b37e0ff3603d186bd5694 ""
-  "/assets/githubLogo.png" 1768743916.35238 8640 ec3a60c8c6539a07eb70b52f6737ea6e ""
-  "/assets/linkedinLogo.png" 1768743916.35338 51991 d374b1a974d1afcf8633c39108cbb827 ""
-  "/assets/phoneLogo.png" 1768743916.35338 8444 91578fa98e1b4ea8022a806f96d82cae ""
-  "/output/build/JaredStemper_Resume.aux" 1768744001.56448 702 302f646c4dbaae167e77186cb3af9133 "pdflatex"
-  "/output/build/JaredStemper_Resume.out" 1768744001.56548 493 fb4c7d8fe4d4979020e93ac1a3fa6219 "pdflatex"
+["pdflatex"] 1768744391.36974 "JaredStemper_Resume.tex" "/output/build/JaredStemper_Resume.pdf" "JaredStemper_Resume" 1768744392.31011 0
+  "/assets/emailLogo-2.png" 1768744302.16087 30916 302beefb5a8b37e0ff3603d186bd5694 ""
+  "/assets/githubLogo.png" 1768744302.16087 8640 ec3a60c8c6539a07eb70b52f6737ea6e ""
+  "/assets/linkedinLogo.png" 1768744302.16087 51991 d374b1a974d1afcf8633c39108cbb827 ""
+  "/assets/phoneLogo.png" 1768744302.16087 8444 91578fa98e1b4ea8022a806f96d82cae ""
+  "/output/build/JaredStemper_Resume.aux" 1768744392.24585 702 302f646c4dbaae167e77186cb3af9133 "pdflatex"
+  "/output/build/JaredStemper_Resume.out" 1768744392.24585 493 fb4c7d8fe4d4979020e93ac1a3fa6219 "pdflatex"
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/merriweather/merriwthr_owzwzj.enc" 1598908638 3232 ef51d03b653093676eb36fc969d4ae7e ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/merriweather/merriwthr_posqbl.enc" 1598908638 3040 77bed73251d3e4e602c256d699396a7f ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/merriweather/merriwthr_xys2i2.enc" 1598908638 3376 368c6737755a189ae98220e8f3400b6c ""
@@ -106,8 +106,8 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1721540661 5483422 a1ef07ac981a8b7f5985102f2de312a6 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1721540760 8239385 b88d3a7ecbd35f5125bf18cc46484b43 ""
   "/usr/local/texlive/2024/texmf.cnf" 1721540657 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "JaredStemper_Resume.tex" 1768743916.35638 10449 fa3342df22d0234ece7b5654b7184f74 ""
-  "resume.cls" 1768743916.35738 12281 6330a0cf7a3b905324e79f7bd4271c0a ""
+  "JaredStemper_Resume.tex" 1768744302.16387 10426 89decc9ff821d0baa28e071e6a4d067b ""
+  "resume.cls" 1768744302.16487 12281 6330a0cf7a3b905324e79f7bd4271c0a ""
   (generated)
   "/output/build/JaredStemper_Resume.aux"
   "/output/build/JaredStemper_Resume.log"

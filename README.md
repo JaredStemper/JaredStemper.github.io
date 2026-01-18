@@ -20,4 +20,4 @@ PDF output is written to `resume/build`. If website is running you can access th
 
 For GitHub Pages setup and deployment, look to the .github/workflows and see official [GitHub documentation](https://docs.github.com/en/pages).
 
-To develop resume either use the `latex_build` script above or copy thed `./resume/resume.cls` and `./resume/JaredStemper_Resume.tex` files into [Overleaf](https://www.overleaf.com/) which is great for building LaTeX online.
+To develop resume either use the `latex_build` script above or copy the `./resume/resume.cls` and `./resume/JaredStemper_Resume.tex` files into [Overleaf](https://www.overleaf.com/) which is great for building LaTeX online.

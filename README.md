@@ -4,7 +4,8 @@ Static website for Jared! Contains the LaTeX and Github workflows used to build 
 
 
 **Serve site locally:**
-- Using Docker Compose:
+
+Using Docker Compose:
 ```bash
 docker-compose up --build
 ```
